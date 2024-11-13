@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 type HangmanWordProps = {
     reveal?:boolean
-    guessedLetters:string,
+    guessedLetters:string[],
     wordToGuess:string
 }
 
